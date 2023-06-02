@@ -59,10 +59,10 @@ def main() -> None:
     gamma = 0.7
     epsilon = 0.1
     epsilon_decay_rate = 0.1
-    episodes = 10
+    episodes = 10000
     # for i in range(len(learning_rate)):
     trainingModel(gamma, learning_rate, epsilon, epsilon_decay_rate, episodes)    
-    testingModel(gamma, learning_rate, epsilon, epsilon_decay_rate, episodes)
+    # testingModel(gamma, learning_rate, epsilon, epsilon_decay_rate, episodes)
 
 
 if __name__ == '__main__':
